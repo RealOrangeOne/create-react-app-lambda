@@ -2,3 +2,9 @@
   command = "yarn build"
   functions = "lambda"
   publish = "build"
+
+[[redirects]]
+from = "/*"
+to = "/.netlify/functions/:splat"
+status = 200
+force = false

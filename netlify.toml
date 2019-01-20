@@ -4,7 +4,7 @@
   publish = "build"
 
 [[redirects]]
-from = "/"
+from = "/api/*"
 to = "/.netlify/functions/hello"
 status = 200
 force = false

@@ -4,7 +4,7 @@
   publish = "build"
 
 [[redirects]]
-from = "/*"
+from = "/£*"
 to = "/.netlify/functions/hello/:splat"
 status = 200
 force = false
